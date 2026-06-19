@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de João Vitor Branco, estudante de Sistemas para Internet na FATEC Jales."
+    />
+    <title>João Vitor Branco | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="matrix-bg" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Voltar ao inicio">
+        <span class="brand-mark">JV</span>
+        <span>joao-branco.exe</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegacao principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Sistemas para Internet | FATEC Jales</p>
+          <h1>João Vitor Branco</h1>
+          <p class="hero-text">
+            Estudante de tecnologia construindo projetos web com foco em
+            interfaces organizadas, codigo limpo e solucoes praticas.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Ver projetos</a>
+            <a class="button secondary" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
+
+        <aside class="terminal" aria-label="Resumo profissional em formato terminal">
+          <div class="terminal-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <pre><code>&gt; whoami
+joao_vitor_branco
+
+&gt; curso --atual
+Sistemas para Internet - FATEC Jales
+
+&gt; foco
+Desenvolvimento Web
+Projetos academicos
+Aprendizado continuo
+
+&gt; status
+Disponivel para novos desafios</code></pre>
+        </aside>
+      </section>
+
+      <section id="sobre" class="section split-section">
+        <div>
+          <p class="eyebrow">Sobre mim</p>
+          <h2>Perfil profissional</h2>
+        </div>
+
+        <div class="content-panel">
+          <p>
+            Sou João Vitor Branco, estudante de Sistemas para Internet na FATEC
+            Jales e estou em desenvolvimento constante na area de tecnologia.
+            Tenho interesse em desenvolvimento web, criacao de interfaces e
+            construcao de projetos que resolvem problemas reais.
+          </p>
+          <p>
+            Este portfolio reune meus principais projetos, minha trajetoria
+            academica e meus canais de contato. A proposta visual segue uma
+            estetica hacker, mas com estrutura clara para facilitar a avaliacao
+            e a navegacao.
+          </p>
+        </div>
+      </section>
+
+      <section id="formacao" class="section split-section">
+        <div>
+          <p class="eyebrow">Formacao</p>
+          <h2>FATEC Jales</h2>
+        </div>
+
+        <div class="content-panel">
+          <p>
+            Curso superior de tecnologia em Sistemas para Internet, com foco em
+            desenvolvimento de aplicacoes web, banco de dados, programacao,
+            design de interfaces e praticas profissionais da area de TI.
+          </p>
+        </div>
+      </section>
+
+      <section id="projetos" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Projetos</p>
+          <h2>Repositorios em destaque</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div>
+              <p class="project-tag">React | TypeScript | Vite</p>
+              <h3>Historical Releases</h3>
+              <p>
+                Loja online de tenis esportivos com catalogo, rotas, carrinho,
+                checkout, area de conta e estrutura preparada para integracoes
+                como autenticacao e pagamento.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/SiteTenis" target="_blank" rel="noreferrer" aria-label="Abrir repositorio Historical Releases">GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <p class="project-tag">Java | Spring Boot | PostgreSQL</p>
+              <h3>CatalogoApp</h3>
+              <p>
+                Aplicacao web para gerenciamento de produtos e categorias, com
+                CRUD, filtros, login, perfis de acesso, persistencia com JPA e
+                telas dinamicas com Thymeleaf.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/Trabalho-Final-Java" target="_blank" rel="noreferrer" aria-label="Abrir repositorio CatalogoApp">GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <p class="project-tag">JavaScript | HTML | API</p>
+              <h3>Promocao Jogos</h3>
+              <p>
+                Aplicacao web para buscar jogos em promocao, consumindo dados
+                externos, exibindo capa, preco, link da oferta, paginacao e
+                busca com atraso para melhorar a experiencia.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/Promocao-Jogos" target="_blank" rel="noreferrer" aria-label="Abrir repositorio Promocao Jogos">GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <p class="project-tag">Java | Spring Boot | Maven</p>
+              <h3>ProjetoJava</h3>
+              <p>
+                Projeto academico de catalogo de produtos com Spring Boot,
+                PostgreSQL, Thymeleaf e Maven, desenvolvido para praticar
+                persistencia, configuracao de banco e aplicacoes web em Java.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/ProjetoJava" target="_blank" rel="noreferrer" aria-label="Abrir repositorio ProjetoJava">GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <p class="project-tag">Python | Logica de Programacao</p>
+              <h3>Agenda</h3>
+              <p>
+                Sistema de agenda em Python executado no terminal, com cadastro,
+                listagem, busca, edicao, ordenacao e exclusao de contatos usando
+                estruturas de dados simples.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/agenda" target="_blank" rel="noreferrer" aria-label="Abrir repositorio Agenda">GitHub</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <p class="project-tag">Git | Estudos</p>
+              <h3>fatec20261</h3>
+              <p>
+                Primeiro repositorio de estudos criado durante as aulas,
+                registrando o inicio da pratica com Git, GitHub, commits e
+                organizacao de projetos academicos.
+              </p>
+            </div>
+            <a href="https://github.com/JOAOBRANCOO/fatec20261" target="_blank" rel="noreferrer" aria-label="Abrir repositorio fatec20261">GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="section contact-section">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos conversar</h2>
+          <p>
+            Estes sao meus principais canais para contato, acompanhamento dos
+            projetos e conexoes profissionais.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+          <a href="https://github.com/JOAOBRANCOO" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>João Vitor Branco</span>
+      <span>Portfólio academico - FATEC Jales</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
