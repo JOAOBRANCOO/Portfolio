@@ -1,21 +1,52 @@
-# Portfolio - Joao Vitor
+# Portfólio - João Vitor Branco
 
-Portfolio academico estatico para apresentar:
+Portfólio pessoal desenvolvido para apresentar minha trajetória acadêmica,
+meus projetos e meus canais de contato.
 
-- Pagina inicial organizada
-- Secao Sobre Mim
-- Formacao em Sistemas para Internet na FATEC Jales
-- Lista de projetos com links
+O site foi criado como atividade acadêmica do curso de **Sistemas para
+Internet** da **FATEC Jales**, com foco em uma página estática organizada,
+responsiva e com identidade visual inspirada em interfaces de terminal e
+estética hacker.
+
+## Sobre o projeto
+
+Este portfólio reúne:
+
+- Página inicial com apresentação profissional
+- Seção sobre mim
+- Formação acadêmica na FATEC Jales
+- Lista de projetos com links para o GitHub
 - Contato e redes sociais
 
-## Como editar
+## Tecnologias utilizadas
 
-1. Abra `index.html`.
-2. Troque os textos de exemplo pelos seus dados reais.
-3. Na secao `Projetos`, substitua os nomes, descricoes e links `href="#"`.
-4. Na secao `Contato`, coloque seu e-mail, GitHub e LinkedIn.
+- HTML5
+- CSS3
+- JavaScript
+- Git e GitHub
+- GitHub Pages
 
-## Como testar localmente
+## Projetos em destaque
+
+- **Historical Releases** - Loja online de tênis esportivos desenvolvida com React, TypeScript e Vite.
+- **CatalogoApp** - Aplicação Java com Spring Boot para gerenciamento de produtos e categorias.
+- **Promoção Jogos** - Aplicação web em JavaScript para buscar jogos em promoção usando API externa.
+- **ProjetoJava** - Projeto acadêmico com Spring Boot, PostgreSQL, Thymeleaf e Maven.
+- **Agenda** - Sistema de agenda em Python executado pelo terminal.
+- **fatec20261** - Repositório de estudos iniciais com Git e GitHub.
+
+## Estrutura
+
+```txt
+.
+├── index.html
+├── styles.css
+├── script.js
+├── dev-server.cjs
+└── README.md
+```
+
+## Como executar localmente
 
 ```bash
 node dev-server.cjs
@@ -27,17 +58,21 @@ Depois acesse:
 http://127.0.0.1:5500/
 ```
 
-## Como publicar no GitHub Pages
+## Publicação
 
-1. Crie um repositorio no GitHub, por exemplo `portfolio`.
-2. Envie estes arquivos para o repositorio.
-3. No GitHub, acesse `Settings` > `Pages`.
-4. Em `Build and deployment`, selecione `Deploy from a branch`.
-5. Escolha a branch `main` ou `master` e a pasta `/root`.
-6. Aguarde o GitHub gerar o link do site.
+O site pode ser publicado como página estática usando o GitHub Pages.
 
-O link normalmente fica parecido com:
+Após enviar os arquivos para um repositório público, basta ativar o GitHub
+Pages em:
 
 ```txt
-https://seu-usuario.github.io/portfolio/
+Settings > Pages > Deploy from a branch
 ```
+
+Selecionando a branch `main` e a pasta `/root`.
+
+## Autor
+
+**João Vitor Branco**
+
+- GitHub: [JOAOBRANCOO](https://github.com/JOAOBRANCOO)
